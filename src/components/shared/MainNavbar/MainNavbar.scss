@@ -1,0 +1,15 @@
+.MainNavbar {
+  color: teal;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  .navLink {
+    position: relative;
+    margin: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid whitesmoke;
+    } 
+  }
+}

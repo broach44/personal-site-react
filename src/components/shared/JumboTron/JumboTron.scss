@@ -1,0 +1,15 @@
+.JumboTron {
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 2rem;
+  .HeadshotImage {
+    margin: 2rem;
+    border-radius: 50%;
+    height: 6rem;
+    width: auto;
+  }
+  .BigItem {
+    color: teal;
+    font-size: 3rem;
+  }
+}
