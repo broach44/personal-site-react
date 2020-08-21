@@ -1,11 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import MainNavbar from '../components/shared/MainNavbar/MainNavbar';
+import JumboTron from '../components/shared/JumboTron/JumboTron';
+import ProjectsContainer from '../components/shared/ProjectsContainer/ProjectsContainer';
+import SideSocialBar from '../components/shared/SideSocialBar/SideSocialBar';
+
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <button className="btn btn-danger">Some Cool Button</button>
+      <MainNavbar />
+      <SideSocialBar />
+      <JumboTron />
+      <ProjectsContainer />
     </div>
   );
 }
