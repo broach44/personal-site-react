@@ -23,7 +23,6 @@ class ProjectsContainer extends React.Component {
   render() {
     return (
       <div className="ProjectsContainer">
-        <h2>Projects Container</h2>
         <Project />
       </div>
     );
