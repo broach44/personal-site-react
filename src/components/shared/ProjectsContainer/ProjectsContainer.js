@@ -3,8 +3,6 @@ import Project from '../Project/Project';
 
 import projectsData from '../../../helpers/data/projectData';
 
-import dividerImage from '../../../helpers/assets/teal simple dividing line_1894052.png';
-
 import './ProjectsContainer.scss';
 
 class ProjectsContainer extends React.Component {
