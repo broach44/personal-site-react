@@ -1,7 +1,10 @@
 .SideSocialBar {
-  position: absolute;
-  border: 1px solid teal;
+  position: fixed;
+  // border: 1px solid teal;
   color: whitesmoke;
+  background-color: rgb(33, 33, 33);
+  box-shadow: 5px 5px 10px black;
+  font-size: large;
   ul {
     padding: 0 1rem 0 1rem;
     margin: 0;
