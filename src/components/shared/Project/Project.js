@@ -10,10 +10,10 @@ class Project extends React.Component {
 
   renderLiveLink = () => {
     const { project } = this.props;
-    if (project.url !== '') {
+    if (project.url !== null) {
       return (<a href={project.url}>Click Here to View Demo</a>);
     }
-    return null;
+    return <></>;
   }
 
   render() {

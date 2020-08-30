@@ -3,6 +3,7 @@ import MainNavbar from '../components/shared/MainNavbar/MainNavbar';
 import JumboTron from '../components/shared/JumboTron/JumboTron';
 import ProjectsContainer from '../components/shared/ProjectsContainer/ProjectsContainer';
 import SideSocialBar from '../components/shared/SideSocialBar/SideSocialBar';
+import TechnologiesContainer from '../components/shared/TechnologiesContainer/TechnologiesContainer';
 
 import './App.scss';
 
@@ -13,6 +14,7 @@ function App() {
       <SideSocialBar />
       <JumboTron />
       <ProjectsContainer />
+      <TechnologiesContainer />
     </div>
   );
 }
