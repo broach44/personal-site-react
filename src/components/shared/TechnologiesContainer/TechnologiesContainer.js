@@ -5,9 +5,9 @@ import './TechnologiesContainer.scss';
 class TechnologiesContainer extends React.Component {
   render() {
     return (
-      <div className="TechnologiesContainer">
+      <div id="technologiesSection" className="TechnologiesContainer">
         <div className="dividerImage"></div>
-        <h1 id="technologiesSection">Technologies</h1>
+        <h1 >Technologies</h1>
         <div className="techIconHolder">
           <img className="techIcon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML 5" />
           <img className="techIcon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3" />

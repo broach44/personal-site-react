@@ -23,9 +23,9 @@ class ProjectsContainer extends React.Component {
   render() {
     const { projects } = this.state;
     return (
-      <div className="ProjectsContainer">
+      <div id="projectsSection" className="ProjectsContainer">
         <div className="dividerImage"></div>
-        <h1 id="projectsSection">Projects</h1>
+        <h1 >Projects</h1>
         { projects.map((project) => <Project project={project} />)}
       </div>
     );
