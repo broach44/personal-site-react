@@ -8,5 +8,13 @@
     margin-left: 5%;
     color: whitesmoke;
     text-align: left;
+    a {
+      color: rgb(118, 185, 185);
+    }
+  }
+  .projectImage {
+    max-width: 450px;
+    max-height: 450px;
+    height: auto;
   }
 }

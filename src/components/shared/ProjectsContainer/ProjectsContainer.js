@@ -3,6 +3,8 @@ import Project from '../Project/Project';
 
 import projectsData from '../../../helpers/data/projectData';
 
+import dividerImage from '../../../helpers/assets/teal simple dividing line_1894052.png';
+
 import './ProjectsContainer.scss';
 
 class ProjectsContainer extends React.Component {
@@ -21,9 +23,12 @@ class ProjectsContainer extends React.Component {
   }
 
   render() {
+    const { projects } = this.state;
     return (
       <div className="ProjectsContainer">
-        <Project />
+        <div className="dividerImage"></div>
+        <h1>Projects</h1>
+        { projects.map((project) => <Project project={project} />)}
       </div>
     );
   }
