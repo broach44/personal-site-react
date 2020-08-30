@@ -1,4 +1,4 @@
-.ProjectsContainer {
+.TechnologiesContainer {
   display: block;
   margin: 0 4rem 0 4rem;
   h1 {
@@ -8,5 +8,10 @@
     border-top:  dotted teal 2px;
     margin: 3rem auto 3rem auto;
     width: 75%;
+  }
+  .techIcon {
+    height: 100px;
+    width: auto;
+    margin: 2rem;
   }
 }
