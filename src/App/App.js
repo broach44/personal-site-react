@@ -4,7 +4,6 @@ import JumboTron from '../components/shared/JumboTron/JumboTron';
 import ProjectsContainer from '../components/shared/ProjectsContainer/ProjectsContainer';
 import SideSocialBar from '../components/shared/SideSocialBar/SideSocialBar';
 import TechnologiesContainer from '../components/shared/TechnologiesContainer/TechnologiesContainer';
-
 import './App.scss';
 
 function App() {

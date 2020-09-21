@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project/Project';
+import FeaturedProjectsCarousel from '../FeaturedProjectCarousel/FeaturedProjectCarousel';
 
 import projectsData from '../../../helpers/data/projectData';
 
@@ -12,7 +13,10 @@ class ProjectsContainer extends React.Component {
 
   getProjects = () => {
     projectsData.getProjects()
-      .then((results) => this.setState({ projects: results }))
+      .then((results) => {
+        const nonFeaturedProjects = results.filter((project) => project.isFeatured === false);
+        this.setState({ projects: nonFeaturedProjects });
+      })
       .catch((err) => console.error(err));
   }
 
@@ -25,7 +29,9 @@ class ProjectsContainer extends React.Component {
     return (
       <div id="projectsSection" className="ProjectsContainer">
         <div className="dividerImage"></div>
-        <h1 >Projects</h1>
+        <h1>Featured Projects</h1>
+        <FeaturedProjectsCarousel />
+        <h1>Additional Projects</h1>
         { projects.map((project) => <Project project={project} />)}
       </div>
     );
