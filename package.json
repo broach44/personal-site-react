@@ -15,7 +15,7 @@
     "bootstrap": "^4.5.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "firebase": "^7.14.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-material-ui-carousel": "^1.9.2",
